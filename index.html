@@ -1,6 +1,445 @@
+<!--
+RU Direct © 2015
+Designed and Developed by James Paik
+-->
+
+
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+	<title>RU Direct</title>
+    <meta name="description" content="RU Direct is an app that provides a clean and easy to use interface for Rutgers Buses">
+    <meta name="author" content="James Paik">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-<h1>Hello World!</h1>
-<p>This is just a temporary page until I finish the official website :)</p>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" media="screen">
+
+    <link href='//fonts.googleapis.com/css?family=Roboto:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" href="assets/images/icons/fav.ico">
+    <link rel="apple-touch-icon" href="assets/images/icons/rudirect.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icons/rudirect-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/icons/rudirect-114x114.png">
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Preloading Circle -->
+	<div id="faceoff">
+		<div id="preloader"></div>
+		<div class="preloader-section"></div>
+	</div>
+	  
+    <header id="home" class="navbar-fixed-top">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                  <span class="sr-only">Menu</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <h1><a class="nav-brand scrollto" href="#banner"><img src="assets/images/rulogo.png" width="100%" alt="RU Direct"></a></h1>
+              </div>
+            </div>
+            <div class="col-sm-7">
+              <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#intro">Intro</a></li>
+                  <li><a href="#feature">Features</a></li>
+                  <li><a href="#screenshot">Screenshots</a></li>
+                  <li><a href="#download">Download</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>             
+              </div>
+            </div>
+            <div class="col-sm-2 mob-right">
+              <ul class="app pull-right">
+                <!--No iOS yet...
+				<li><a href=""><i class="fa fa-apple"></i></a></li>
+				-->
+                <li><i class="fa fa-android"></i></li>
+                <li><a href="https://github.com/churichard/ru-direct/releases" target="_blank"><i class="fa fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Landing-->
+    <section id="banner" class="banner norm-img">
+      <div class="trans-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">            
+                  <h2><a href="#" class="lg-logo" style="font-size:2em;">RU DIRECT</a></h2>
+                 <div class="flex_text text-slider">
+                  <ul class="slides">
+                      <li>Introducing an alternative to the Rutgers app</li>
+                      <li>Stop waiting for the Rutgers app to launch</li>
+					  <li>Faster with more function</li>
+					  <li>Richard, think of something to replace these :)</li>
+                  </ul>
+                </div>
+                  <ul class="app">
+                    <li><a href="#"><i class="fa fa-android"></i></a></li>
+                    <li><a href="https://github.com/churichard/ru-direct/releases" target="_blank"><i class="fa fa-github"></i></a></li>
+                  </ul>
+                  <div class="download-block text-center">
+                   <a href="#download" class="btn-download scrollto">Download</a><a href="#intro" class="btn-download scrollto">More Information</a>
+                 </div>
+            </div>
+          </div>
+        </div>
+      </div>               
+    </section>
+    <!-- Landing End-->
+
+    <!-- Intro start-->
+    <section id="intro" class="intro white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <span class="sub-head wow fadeInLeft">Presenting</span>
+            <div class="title wow fadeInRight">
+              <h2>RU Direct</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="app-block wow bounceInUp" data-wow-delay=".1s">
+              <i class="fa fa-bolt"></i>
+              <h3>Blazing Fast</h3>
+              <p>RU Direct is proven to be much faster than the default Rutgers App. We implemented many data structures to do just that.</p>
+            </div>            
+          </div>
+          <div class="col-sm-4">
+            <div class="app-block wow bounceInUp" data-wow-delay=".2s">
+              <i class="fa fa-life-ring"></i>
+              <h3>Need Support?</h3>
+              <p>If you ever run into a problem with the app and need help, feel free to <a href="#contact" class="scrollto">contact us</a>.</p>
+            </div>            
+          </div>
+          <div class="col-sm-4">
+            <div class="app-block wow bounceInUp" data-wow-delay=".3s">
+              <i class="fa fa-paint-brush"></i>
+              <h3>Minimalistic Design</h3>
+              <p>We designed the app to be very minimalistic and simple to use. The user interface was kept in mind for speed!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="app-block wow bounceInUp" data-wow-delay=".4s">
+              <i class="fa fa-code"></i>
+              <h3>Hack RU</h3>
+              <p>RU Direct started up at Hack Rutgers University during Spring 2015.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="app-block wow bounceInUp" data-wow-delay=".5s">
+              <i class="fa fa-thumbs-o-up"></i>
+              <h3>Free!</h3>
+              <p>RU Direct is completely free! There is no catch -we just wanted something faster and more convenient for Rutgers buses.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="app-block wow bounceInUp" data-wow-delay=".6s">
+              <i class="fa fa-github-alt"></i>
+              <h3>Open Source</h3>
+              <p>RU Direct is open sourced on <a href="https://github.com/churichard/ru-direct" target="_blank">Github</a>! You can help contribute to our app if you would like.</p>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end -->
+
+    <!-- feature start -->
+    <section id="feature" class="feature norm-img">
+      <div class="trans-bg trans-bg2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2 class="wow swing" data-wow-delay=".1s">Features</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <ul class="feature-list-left">
+                <li>
+                  <div class="feature-detail wow fadeInLeft" data-wow-delay=".4s">
+                    <h4>Scroll</h4>
+                    <p>Scroll between active buses, directions, and all Buses.</p>
+                  </div>                          
+                  <div class="feature-icon wow fadeInLeft" data-wow-delay=".3s">
+                    <i class="fa fa-exchange"></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-detail wow fadeInLeft" data-wow-delay=".4s">
+                    <h4>Simple Design</h4>
+                    <p>RU Direct has a very simple layout and will stay in portrait.</p>
+                  </div>
+                  <div class="feature-icon wow fadeInLeft" data-wow-delay=".3s">
+                    <i class="fa fa-arrows-alt"></i>
+                  </div>                  
+                </li>
+                <li>                  
+                  <div class="feature-detail wow fadeInLeft" data-wow-delay=".4s">
+                    <h4>API Use</h4>
+                    <p>We use a few APIs to ensure the reliability of the app, including NextBus and Google Maps. </p>
+                  </div>
+                  <div class="feature-icon wow fadeInLeft" data-wow-delay=".3s">
+                    <i class="fa fa-cog"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4 text-center">
+              <img class="wow bounceInUp" src="assets/images/phone.png" alt="" title="" width="100%">
+            </div>
+            <div class="col-sm-4">
+              <ul class="feature-list-right">
+                <li>
+                  <div class="feature-icon wow fadeInRight" data-wow-delay=".3s">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <div class="feature-detail wow fadeInRight" data-wow-delay=".4s">
+                    <h4>Directions and Map</h4>
+                    <p>RU Direct has a map associated with each bus. We also implemented the fastest directional route to a building.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-icon wow fadeInRight" data-wow-delay=".3s">
+                    <i class="fa fa-mobile"></i>
+                  </div>
+                  <div class="feature-detail wow fadeInRight" data-wow-delay=".4s">
+                    <h4>Android and iOS</h4>
+                    <p>Currently RU Direct is only available for Android users, but we will be developing an iPhone version soon!</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-icon wow fadeInRight" data-wow-delay=".3s">
+                    <i class="fa fa-undo"></i>
+                  </div>
+                  <div class="feature-detail wow fadeInRight" data-wow-delay=".4s">
+                    <h4>Auto Refresh</h4>
+                    <p>RU direct will auto refresh every 30 seconds to keep up with buses. You can also manually refresh it.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature end -->
+
+    <!-- screenshot start -->
+    <section id="screenshot" class="screenshot white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <span class="sub-head wow fadeInLeft">Take a look at our</span>            
+            <div class="title wow fadeInRight">
+              <h2>Screenshots</h2>
+            </div>
+            <div id="owl-demo" class="owl-carousel">
+                <div class="item screenshot-block">
+                  <img src="./assets/images/screenshot.jpg" alt="RU Direct">
+                  <div class="caption">
+                    <a class="test-popup-link" href="./assets/images/screenshot.jpg"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item screenshot-block">
+                  <img src="./assets/images/screenshot.jpg" alt="RU Direct">
+                  <div class="caption">
+                    <a class="test-popup-link" href="./assets/images/screenshot.jpg"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item screenshot-block">
+                  <img src="./assets/images/screenshot.jpg" alt="RU Direct">
+                  <div class="caption">
+                    <a class="test-popup-link" href="./assets/images/screenshot.jpg"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item screenshot-block">
+                  <img src="./assets/images/screenshot.jpg" alt="RU Direct">
+                  <div class="caption">
+                    <a class="test-popup-link" href="./assets/images/screenshot.jpg"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item screenshot-block">
+                  <img src="./assets/images/screenshot.jpg" alt="RU Direct">
+                  <div class="caption">
+                    <a class="test-popup-link" href="./assets/images/screenshot.jpg"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+                <div class="item screenshot-block">
+                  <img src="./assets/images/screenshot.jpg" alt="RU Direct">
+                  <div class="caption">
+                    <a class="test-popup-link" href="./assets/images/screenshot.jpg"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- screenshot end -->
+
+    <!-- download start -->
+    <section id="download" class="downlaod norm-img">
+      <div class="trans-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2 class="wow swing">Download the app</h2>
+              <span class="wow fadeInLeft" style="display:inline-block"><a href="#download" class="btn disabled"><i class="fa fa-android"></i> Play Store</a></span>
+              <span class="wow fadeInLeft" style="display:inline-block"><a href="https://github.com/churichard/ru-direct/releases" target="_blank" class="btn"><i class="fa fa-github"></i> Github</a></span>
+			  <span class="wow fadeInLeft" style="display:inline-block"><a href="#download" class="btn disabled"><i class="fa fa-apple"></i> Coming Soon</a></span>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.trans-bg -->   
+    </section>
+    <!-- download end -->
+
+    <!-- contact start -->
+    <section id="contact" class="contact white tab-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs text-center" role="tablist">
+              <li class="wow rollIn animated" data-wow-duration="1s"><a href="#contact-info" role="tab" data-toggle="tab"><i class="fa fa-paper-plane"></i></a></li>
+              <li class="active wow rollIn animated" data-wow-duration="2s"><a href="#contact-form" role="tab" data-toggle="tab"><i class="fa fa-users"></i></a></li>
+            </ul>            
+          </div>
+        </div>
+      </div>
+       <!-- Tab panes -->
+      <div class="tab-content">
+		<div class="tab-pane active contact-info" id="contact-form">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">            
+                <span class="sub-head">who we are</span>
+                <div class="title">
+                  <h2>About us</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <p>Richard Chu, James Paik, Kenny Li, Carin Yao</p>
+				<br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane contact-info" id="contact-info">
+          <div class="container">
+            <div class="row">
+            <div class="col-sm-12 text-center">            
+              <span class="sub-head">Need to reach us?</span>
+              <div class="title">
+                <h2>Contact Us</h2>
+              </div>
+            </div>
+          </div>
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <div class="info-holder">
+                  <i class="fa fa-reply"></i>
+                  <br>
+                  <p>
+                    contact@rudirect.org
+                  </p>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer id="footer" class="norm-img">
+      <div class="trans-bg trans-bg2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <div class="social-icon">
+               <a href="#footer" class="wow rollIn animated" data-wow-delay=".1s"><i class="fa fa-facebook"></i></a>
+               <a href="#footer" class="wow rollIn animated" data-wow-delay=".2s"><i class="fa fa-twitter"></i></a>
+               <a href="#footer" class="wow rollIn animated" data-wow-delay=".3s"><i class="fa fa-google-plus"></i></a>
+              </div> 
+              <div class="copyright">
+                <p>&copy; <span>RU Direct</span>2015</p>
+				<p>Designed by James Paik</p>
+              </div>
+            </div>
+          </div>   
+        </div>
+        <div id="go-to-top">
+            <a href="#banner"></a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+	
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.localScroll.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/js/jquery.parallax.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/matchMedia.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/easing.js"></script>
+    <script>
+    	$(document).ready(function() {
+		//"use strict";
+        $('#banner').parallax("50%", 0.5, true);   		
+        $('#video').parallax("50%", 0.5, true);
+    		$('#feature').parallax("50%", 0.5, true);
+    		$('#subscription').parallax("50%", 0.5, true);
+    		$('#review').parallax("50%", 0.5, true);
+    		$('#download').parallax("50%", 0.5, true);
+        $('#footer').parallax("50%", 0.5, true);
+    	});
+
+    </script>
+       
+  </body>
 </html>
